@@ -70,6 +70,10 @@ https://free.much-ai.com
 
 ![](https://raw.githubusercontent.com/1198722360/picture/main/20250530181318202.png)
 
+### 余额管理
+
+![](https://raw.githubusercontent.com/1198722360/picture/main/20250531023845333.png)
+
 ### 充值面板
 
 ![](https://raw.githubusercontent.com/1198722360/picture/main/20250530181456724.png)
