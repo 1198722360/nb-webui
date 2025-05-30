@@ -1,0 +1,37 @@
+services:
+  open-webui:
+    image: wxyin/nb-webui:latest
+    container_name: nb-webui
+    volumes:
+      - ./data:/app/backend/data
+    ports:
+      - 8188:8080
+    environment:
+      - DATABASE_URL=postgres://openwebui:Shijie11@postgres:5432/openwebui
+      - DATABASE_POOL_SIZE=10
+      - DATABASE_POOL_MAX_OVERFLOW=50
+      # - ENABLE_OLLAMA_API=false
+      # 开启注册登录功能
+      - 'WEBUI_AUTH=true'
+      - 'ENABLE_SIGNUP=true'
+    restart: unless-stopped
+
+  postgres:
+    container_name: postgres
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: openwebui
+      POSTGRES_PASSWORD: Shijie11
+      POSTGRES_DB: openwebui
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+      - ./postgres-init:/docker-entrypoint-initdb.d
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U openwebui | grep -o 'accepting connections'"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
