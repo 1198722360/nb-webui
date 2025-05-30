@@ -17,10 +17,10 @@ github：[open-webui/open-webui: User-friendly AI Interface (Supports Ollama, Op
 ```bash
 git clone https://github.com/1198722360/nb-webui.git
 cd nb-webui
-
-# 记得
 ./deploy.sh
+# 然后访问 http://ip:8188 即可
 ```
+
 
 # 已实现功能
 
