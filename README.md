@@ -64,7 +64,7 @@ https://free.much-ai.com
 
 ![](https://raw.githubusercontent.com/1198722360/picture/main/20250530181045512.png)
 
-![](assets/20250530_181158_image.png)
+![](https://raw.githubusercontent.com/1198722360/picture/main/20250530191949085.png)
 
 ### 余额显示
 
@@ -88,4 +88,4 @@ https://free.much-ai.com
 
 #### 支付/充值配置
 
-![](assets/20250530_181909_image.png)
+![](https://raw.githubusercontent.com/1198722360/picture/main/20250530191853800.png)
