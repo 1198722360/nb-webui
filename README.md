@@ -12,6 +12,16 @@
 
 github：[open-webui/open-webui: User-friendly AI Interface (Supports Ollama, OpenAI API, ...)](https://github.com/open-webui/open-webui)
 
+# 部署教程
+
+```bash
+git clone https://github.com/1198722360/nb-webui.git
+cd nb-webui
+
+# 记得
+./deploy.sh
+```
+
 # 已实现功能
 
 * [X] /v1/chat/completions接口计费
@@ -37,6 +47,12 @@ github：[open-webui/open-webui: User-friendly AI Interface (Supports Ollama, Op
 * [ ] 邀请返利
 * [ ] 更便捷的模型配置功能(如统一配置各模型调用时是否携带"usage"字段等)
 * [ ] ......
+
+
+
+### **本项目供免费使用，并将持续更新。另外，如有好的需求或建议，欢迎进群提出，作者将选择性采纳**
+
+![](https://raw.githubusercontent.com/1198722360/picture/main/20250530182801706.png)
 
 # 演示站+公益站
 
@@ -73,11 +89,3 @@ https://free.much-ai.com
 #### 支付/充值配置
 
 ![](assets/20250530_181909_image.png)
-
----
-
-# 其它
-
-本项目供免费使用，并将持续更新。另外，如有好的需求或建议，欢迎进群提出，作者将选择性采纳
-
-![](https://raw.githubusercontent.com/1198722360/picture/main/20250530182801706.png)
